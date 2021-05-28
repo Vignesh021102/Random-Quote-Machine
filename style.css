@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins",sans-serif;
+    font-weight: 900;
+}
+
+#quoteBox{
+    background-color: rgb(255, 255, 255);
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    box-shadow: 5px 5px 10px 2px black;
+}
+#quoteBox p,#quoteBox button {
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+#nextButton {
+    background-color: transparent;
+    border: 2px solid ;
+    border-radius: 10px;
+}
+#author {
+    text-align: right;
+}
+#buttonBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
